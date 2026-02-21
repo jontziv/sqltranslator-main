@@ -1,0 +1,5 @@
+trial_id,compound,therapeutic_area,target_enrollment,actual_enrollment,pct_enrolled
+TRL-013,Pirtobrutinib,Oncology,480,412,85.8
+TRL-001,Vonastinib,Oncology,620,589,95.0
+TRL-010,Etrolizib,Immunology,710,678,95.5
+TRL-011,Jorinavir,Virology,1100,1089,99.0

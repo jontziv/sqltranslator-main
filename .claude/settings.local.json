@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m vanna.examples.pharma_rnd_demo:*)",
+      "Bash(python:*)",
+      "Bash(grep:*)",
+      "Bash(pip install:*)",
+      "Bash(# Confirm no stray ''vanna'' references remain in Python imports grep -r \"\"^from vanna\\\\|^import vanna\"\" /Users/jontziv/Downloads/vanna-main/src/)",
+      "Bash(conda run:*)",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(curl:*)",
+      "Bash(pip show:*)"
+    ]
+  }
+}
