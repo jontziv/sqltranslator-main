@@ -2,10 +2,6 @@
 
 **Portfolio Project by Jon Tziv** | Natural language → SQL → Insights, purpose-built for pharmaceutical R&D
 
-[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Built on Vanna AI](https://img.shields.io/badge/built%20on-Vanna%20AI-purple.svg)](https://vanna.ai)
-[![Domain](https://img.shields.io/badge/domain-Pharma%20R%26D-green.svg)]()
 
 ---
 
@@ -20,7 +16,6 @@ This project demonstrates rapid AI product prototyping applied to a high-value p
 - **Enterprise Readiness** — Row-level security, audit logging, and permission-gated SQL visibility to meet regulated-industry compliance needs
 - **Lean Roadmap Thinking** — MVP scoped to highest-value features; clear backlog articulates future phases without over-engineering now
 
-**Relevance to the FIT Product Manager role:** This project mirrors exactly what Forward Impact Engineering teams do — take a validated open-source foundation, add domain-specific intelligence, and ship a working prototype that proves business value before committing to full-scale investment.
 
 ---
 
@@ -95,10 +90,6 @@ cd vanna-main
 pip install -e .
 
 # Run the pharma R&D demo with mock LLM
-python -m vanna.examples.pharma_rnd_demo
-```
-
-This runs a complete demonstration against a local SQLite database pre-loaded with mock pharma R&D data — compounds, clinical trials, pipeline stages, and therapeutic area metrics.
 
 **Sample output:**
 ```
